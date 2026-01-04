@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of projects and websites." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="wrap hero">
+    <h1>Your Name</h1>
+    <p class="sub">Static sites • Small web apps • E-commerce experiments</p>
+    <div class="links">
+      <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="mailto:you@email.com">Email</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h2>Projects</h2>
+
+    <section class="grid">
+      <!-- Project card -->
+      <article class="card">
+        <img src="assets/img/project1.jpg" alt="Project screenshot" />
+        <div class="card-body">
+          <h3>Jojin’s Kitty Thrift Shop</h3>
+          <p>E-comm style site build + product pages.</p>
+          <div class="btns">
+            <a class="btn" href="https://YOURDOMAIN.com" target="_blank" rel="noreferrer">Live</a>
+            <a class="btn ghost" href="https://github.com/YOUR_USERNAME/REPO" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/img/project2.jpg" alt="Project screenshot" />
+        <div class="card-body">
+          <h3>TV Install Chicago</h3>
+          <p>Landing page + seasonal themes + SEO basics.</p>
+          <div class="btns">
+            <a class="btn" href="https://YOURDOMAIN.com" target="_blank" rel="noreferrer">Live</a>
+            <a class="btn ghost" href="https://github.com/YOUR_USERNAME/REPO" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/img/project3.jpg" alt="Project screenshot" />
+        <div class="card-body">
+          <h3>LeadTradeZone</h3>
+          <p>Concept pages, forms, and lead marketplace layout.</p>
+          <div class="btns">
+            <a class="btn" href="#" target="_blank" rel="noreferrer">Live</a>
+            <a class="btn ghost" href="#" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> Your Name</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
