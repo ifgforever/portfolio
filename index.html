@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="Risen Dust — Rise Above the Busywork">
   <meta name="twitter:description" content="Websites, business applications, lead automation, messaging automation, and CRM optimization that give you time back.">
   <title>Risen Dust | Chicago Websites, Business Apps &amp; AI Automation</title>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=20260730-form">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -698,6 +698,16 @@
     </div>
   </footer>
 
-  <script type="module" src="assets/app.js"></script>
+  <script>
+    window.formspree = window.formspree || function () {
+      (formspree.q = formspree.q || []).push(arguments);
+    };
+    formspree("initForm", {
+      formElement: "#contact-form",
+      formId: "mdaqjjqo"
+    });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+  <script type="module" src="assets/app.js?v=20260730-form"></script>
 </body>
 </html>
