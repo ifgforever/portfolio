@@ -333,7 +333,7 @@ a {
 }
 
 .service-card--blue > p {
-  color: rgba(255, 255, 255, 0.76);
+  color: rgba(255, 255, 255, 0.97);
 }
 
 .service-card ul {
@@ -369,7 +369,7 @@ a {
 
 .section-kicker {
   margin-bottom: 18px;
-  color: var(--blue);
+  color: #1650c9;
 }
 
 .section-heading h2,
@@ -768,7 +768,7 @@ a {
 .footer-intro {
   max-width: 570px;
   margin: 34px 0 48px;
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.97);
   font-size: clamp(17px, 1.5vw, 22px);
   line-height: 1.45;
 }
@@ -821,7 +821,7 @@ a {
 .form-heading > p:last-child {
   justify-self: end;
   max-width: 310px;
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 16px;
 }
 
@@ -855,7 +855,7 @@ a {
 }
 
 .form-field em {
-  color: rgba(255, 255, 255, 0.62);
+  color: rgba(255, 255, 255, 0.9);
   font-style: normal;
   font-weight: 400;
 }
@@ -902,12 +902,12 @@ a {
 }
 
 .form-field [aria-invalid="true"] {
-  border-bottom-color: #ffd7d0;
+  border-bottom-color: #ffe6e2;
 }
 
 .form-field small {
   min-height: 1em;
-  color: #ffd7d0;
+  color: #ffe6e2;
   font-size: 12px;
 }
 
@@ -931,8 +931,8 @@ a {
 }
 
 .form-notice--error {
-  border: 1px solid #ffd7d0;
-  color: #ffd7d0;
+  border: 1px solid #ffe6e2;
+  color: #ffe6e2;
 }
 
 .form-submit {
@@ -968,7 +968,7 @@ a {
 
 .form-privacy {
   margin: 13px 0 0;
-  color: rgba(255, 255, 255, 0.62);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 9px;
 }
 
