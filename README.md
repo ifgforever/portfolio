@@ -1,4 +1,4 @@
-# Lance Lee — Websites & Ideas
+# Risen Dust — Websites, Business Apps & AI Automation
 
 A client-facing portfolio for small businesses looking for:
 
@@ -16,7 +16,7 @@ The site presents seven websites and product ideas as proof of work:
 - Ravens Girls Wrestling
 - Lead Trade Zone
 - Blade Wipes
-- Risen Dust
+- Arma Sancta (`https://risendust.pages.dev/`)
 
 ## How it works
 
