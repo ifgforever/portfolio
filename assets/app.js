@@ -1,7 +1,18 @@
+import { initForm } from "@formspree/ajax";
+
 const year = document.querySelector("#year");
 
 if (year) {
   year.textContent = new Date().getFullYear();
+}
+
+const contactForm = document.querySelector("#contact-form");
+
+if (contactForm) {
+  initForm({
+    formElement: contactForm,
+    formId: "mdaqjjqo",
+  });
 }
 
 const cards = document.querySelectorAll(".project-card");

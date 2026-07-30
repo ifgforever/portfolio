@@ -564,15 +564,134 @@
   </main>
 
   <footer class="site-footer" id="contact">
-    <div>
-      <p class="footer-lead">Call, text, or email · Ready to rise above the busywork?</p>
-      <a class="footer-phone" href="tel:+13124268897">
-        (312)&nbsp;426&#8209;8897&nbsp;<span aria-hidden="true">↗</span>
-      </a>
-      <a class="footer-email" href="mailto:lance.risendust@gmail.com">
-        lance.risendust@gmail.com <span aria-hidden="true">↗</span>
-      </a>
+    <div class="footer-contact-grid">
+      <div class="footer-contact-copy">
+        <p class="footer-lead">Have a project in mind?</p>
+        <h2>Let’s clear the busywork.</h2>
+        <p class="footer-intro">
+          Tell me what is slowing your business down or what you want to build.
+          A clear, straightforward note is enough to get started.
+        </p>
+        <a class="footer-phone" href="tel:+13124268897">
+          (312)&nbsp;426&#8209;8897&nbsp;<span aria-hidden="true">↗</span>
+        </a>
+        <a class="footer-email" href="mailto:lance.risendust@gmail.com">
+          lance.risendust@gmail.com <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <form
+        class="contact-form"
+        id="contact-form"
+        action="https://formspree.io/f/mdaqjjqo"
+        method="POST"
+      >
+        <input type="hidden" name="_subject" value="New Risen Dust project inquiry">
+        <input type="hidden" name="source" value="risendust.com portfolio">
+
+        <div class="form-heading">
+          <p class="form-kicker">Start a project</p>
+          <p>Share the goal. I’ll help map the smartest next step.</p>
+        </div>
+
+        <div class="form-grid">
+          <label class="form-field">
+            <span>Your name</span>
+            <input
+              type="text"
+              name="name"
+              autocomplete="name"
+              required
+              data-fs-field
+            >
+            <small data-fs-error="name"></small>
+          </label>
+
+          <label class="form-field">
+            <span>Business name</span>
+            <input
+              type="text"
+              name="business"
+              autocomplete="organization"
+              data-fs-field
+            >
+            <small data-fs-error="business"></small>
+          </label>
+
+          <label class="form-field">
+            <span>Email</span>
+            <input
+              type="email"
+              name="email"
+              autocomplete="email"
+              inputmode="email"
+              required
+              data-fs-field
+            >
+            <small data-fs-error="email"></small>
+          </label>
+
+          <label class="form-field">
+            <span>Phone <em>optional</em></span>
+            <input
+              type="tel"
+              name="phone"
+              autocomplete="tel"
+              inputmode="tel"
+              data-fs-field
+            >
+            <small data-fs-error="phone"></small>
+          </label>
+
+          <label class="form-field form-field--wide">
+            <span>What can I help with?</span>
+            <select name="service" required data-fs-field>
+              <option value="" selected disabled>Choose a starting point</option>
+              <option value="Small business website">Small business website</option>
+              <option value="Business application">Business application</option>
+              <option value="Lead or messaging automation">Lead or messaging automation</option>
+              <option value="CRM optimization">CRM optimization</option>
+              <option value="SEO">SEO</option>
+              <option value="Not sure yet">Not sure yet</option>
+            </select>
+            <small data-fs-error="service"></small>
+          </label>
+
+          <label class="form-field form-field--wide">
+            <span>What would you like to improve or build?</span>
+            <textarea
+              name="message"
+              rows="5"
+              minlength="20"
+              required
+              data-fs-field
+            ></textarea>
+            <small data-fs-error="message"></small>
+          </label>
+        </div>
+
+        <div
+          class="form-notice form-notice--success"
+          data-fs-success
+          role="status"
+          aria-live="polite"
+        ></div>
+        <div
+          class="form-notice form-notice--error"
+          data-fs-error
+          role="alert"
+          aria-live="assertive"
+        ></div>
+
+        <button class="form-submit" type="submit" data-fs-submit-btn>
+          Send project details <span aria-hidden="true">↗</span>
+        </button>
+        <p class="form-privacy">
+          Your information is used only to respond to your inquiry.
+        </p>
+      </form>
     </div>
+
     <div class="footer-bottom">
       <span>© <span id="year"></span> Risen Dust · Built by Lance Lee</span>
       <a href="#top">Back to top ↑</a>
