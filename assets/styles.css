@@ -449,6 +449,7 @@ a {
 .preview-fallback--risen { background: #4f3a2a; color: #f2e8d5; }
 .preview-fallback--reading { background: #2e2a47; color: #f0b429; }
 .preview-fallback--tvchat { background: #1a1025; color: #c4b5fd; }
+.preview-fallback--emt { background: #0b1220; color: #ffd34d; }
 
 .project-preview iframe {
   position: absolute;
