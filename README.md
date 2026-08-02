@@ -8,7 +8,7 @@ A client-facing portfolio for small businesses looking for:
 - Automated customer messaging
 - CRM optimization
 
-The site presents seven websites and product ideas as proof of work:
+The site presents websites, applications, and product ideas as proof of work, including:
 
 - TV Install Chicago
 - Jojin's Kitty Thrift Shop
@@ -17,6 +17,8 @@ The site presents seven websites and product ideas as proof of work:
 - Lead Trade Zone
 - Blade Wipes
 - Arma Sancta (`https://risendust.pages.dev/`)
+- HomeTeam
+- ClipTap (`https://cliptap.us/`)
 
 ## How it works
 

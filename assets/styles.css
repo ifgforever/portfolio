@@ -451,6 +451,7 @@ a {
 .preview-fallback--tvchat { background: #1a1025; color: #c4b5fd; }
 .preview-fallback--emt { background: #0b1220; color: #ffd34d; }
 .preview-fallback--hometeam { background: #172554; color: #fef3c7; }
+.preview-fallback--cliptap { background: #10110f; color: #d9ff43; }
 
 .project-preview iframe {
   position: absolute;
