@@ -1,4 +1,7 @@
-User-agent: *
-Allow: /
+# Cloudflare prepends its own managed block above this one (User-agent: *,
+# Content-Signal, and the AI-crawler Disallow list). Don't restate
+# "User-agent: * / Allow: /" here — it only creates a second, redundant
+# group for the same user-agent. Sitemap is a non-group directive and
+# applies regardless.
 
 Sitemap: https://risendust.com/sitemap.xml

@@ -27,9 +27,20 @@ Selecting a card opens the corresponding website in a new tab.
 
 ## Deploy
 
-This is a static Vite website. Connect the repository to Cloudflare Pages and use:
+Cloudflare Pages project **`portfolio`** (git-connected), serving
+`risendust.com` and `www.risendust.com`. It deploys on push to `main`.
 
-- Build command: `npm run build`
-- Build output directory: `dist`
+**No build step runs — Pages serves the repository root verbatim.** Verified in
+production: `assets/styles.css?v=…` reaches the browser unhashed, and
+`/package.json` and `/README.md` are publicly readable. So:
+
+- Anything that must be served has to live at the repo **root**, not in
+  `public/` — a `public/` directory is served as a literal `/public/` path,
+  which is why the duplicate robots/sitemap copies there were removed.
+- `404.html` at the root is what Pages serves, with a real 404 status, for
+  unmatched paths. Without it every bogus URL returned the homepage at
+  HTTP 200 — a soft 404 on infinite URLs.
+- Vite remains in `devDependencies` for `npm run dev` only. Do not assume
+  `npm run build`/`dist` is in the deploy path; it is not.
 
 For local development, run `npm install` followed by `npm run dev`.

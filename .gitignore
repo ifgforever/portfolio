@@ -1,0 +1,7 @@
+# Cloudflare Pages serves this repository root VERBATIM (no build step), so
+# anything committed here becomes publicly fetchable at risendust.com/<path>.
+# Keep local tooling state out of the repo.
+.wrangler/
+node_modules/
+dist/
+.DS_Store
