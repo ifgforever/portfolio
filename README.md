@@ -18,7 +18,8 @@ The site presents websites, applications, and product ideas as proof of work, in
 - Blade Wipes
 - Arma Sancta (`https://risendust.pages.dev/`)
 - HomeTeam
-- ClipTap (`https://cliptap.us/`)
+- ClipTap (`https://cliptap.win/`)
+- Doc Lookup (`https://doclookup.ai/`)
 
 ## How it works
 

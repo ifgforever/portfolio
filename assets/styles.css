@@ -452,6 +452,7 @@ a {
 .preview-fallback--emt { background: #0b1220; color: #ffd34d; }
 .preview-fallback--hometeam { background: #172554; color: #fef3c7; }
 .preview-fallback--cliptap { background: #10110f; color: #d9ff43; }
+.preview-fallback--doclookup { background: #0d1117; color: #5b96f7; }
 
 .project-preview iframe {
   position: absolute;
