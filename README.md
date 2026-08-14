@@ -20,6 +20,7 @@ The site presents websites, applications, and product ideas as proof of work, in
 - HomeTeam
 - ClipTap (`https://cliptap.win/`)
 - Doc Lookup (`https://doclookup.ai/`)
+- Remedy Lookup (`https://remedylookup.app/`)
 
 ## How it works
 
