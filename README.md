@@ -21,6 +21,8 @@ The site presents websites, applications, and product ideas as proof of work, in
 - ClipTap (`https://cliptap.win/`)
 - Doc Lookup (`https://doclookup.ai/`)
 - Remedy Lookup (`https://remedylookup.app/`)
+- Case Lookup (`https://caselookup.app/`)
+- GHPE (`https://ghpe.org/`)
 
 ## How it works
 

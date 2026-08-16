@@ -454,6 +454,8 @@ a {
 .preview-fallback--cliptap { background: #10110f; color: #d9ff43; }
 .preview-fallback--doclookup { background: #0d1117; color: #5b96f7; }
 .preview-fallback--remedylookup { background: #10231a; color: #7fd6a2; }
+.preview-fallback--caselookup { background: #111a24; color: #7fa8cc; }
+.preview-fallback--ghpe { background: #0a3319; color: #ddc180; }
 
 .project-preview iframe {
   position: absolute;
