@@ -23,6 +23,8 @@ The site presents websites, applications, and product ideas as proof of work, in
 - Remedy Lookup (`https://remedylookup.app/`)
 - Case Lookup (`https://caselookup.app/`)
 - GHPE (`https://ghpe.org/`)
+- TV Install Chicago Ops (internal platform — no public URL, so the card has no
+  live preview)
 
 ## How it works
 

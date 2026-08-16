@@ -456,6 +456,7 @@ a {
 .preview-fallback--remedylookup { background: #10231a; color: #7fd6a2; }
 .preview-fallback--caselookup { background: #111a24; color: #7fa8cc; }
 .preview-fallback--ghpe { background: #0a3319; color: #ddc180; }
+.preview-fallback--tvops { background: #121212; color: #c8a94a; }
 
 .project-preview iframe {
   position: absolute;
