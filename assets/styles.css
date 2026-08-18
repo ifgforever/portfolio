@@ -458,6 +458,7 @@ a {
 .preview-fallback--ghpe { background: #0a3319; color: #ddc180; }
 .preview-fallback--tvops { background: #121212; color: #c8a94a; }
 .preview-fallback--andante { background: #f6f4f1; color: #8a6c37; }
+.preview-fallback--chicagoitdept { background: #f5f8fc; color: #0a55a8; }
 
 .project-preview iframe {
   position: absolute;

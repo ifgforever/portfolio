@@ -26,6 +26,8 @@ The site presents websites, applications, and product ideas as proof of work, in
 - TV Install Chicago Ops (internal platform — no public URL, so the card has no
   live preview)
 - Andante Hair Studio (`https://www.andantehairchicago.com/`)
+- Chicago IT Dept (`https://chicagoitdept.com/` — the site sends
+  `X-Frame-Options: SAMEORIGIN`, so the card links out with no live preview)
 
 ## How it works
 
