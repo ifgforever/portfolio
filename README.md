@@ -25,6 +25,7 @@ The site presents websites, applications, and product ideas as proof of work, in
 - GHPE (`https://ghpe.org/`)
 - TV Install Chicago Ops (internal platform — no public URL, so the card has no
   live preview)
+- Andante Hair Studio (`https://www.andantehairchicago.com/`)
 
 ## How it works
 
