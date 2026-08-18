@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94 94" role="img" aria-label="Risen Dust">
+  <!-- Redrawn as vector from the Risen Dust pixel-R logo: a navy R whose
+       stem erodes into copper dust, with steel and copper ribbons rising
+       along the lower stem. -->
+  <g>
+    <rect x="34" y="9"  width="5" height="5" fill="#2e3d4e"/>
+    <rect x="34" y="16" width="5" height="5" fill="#2e3d4e"/>
+    <rect x="34" y="30" width="5" height="5" fill="#2e3d4e"/>
+    <rect x="34" y="37" width="5" height="5" fill="#2e3d4e"/>
+    <rect x="34" y="23" width="5" height="5" fill="#6b4420"/>
+    <rect x="28" y="13" width="5" height="5" fill="#7c4f24"/>
+    <rect x="28" y="20" width="5" height="5" fill="#8f5c29"/>
+    <rect x="28" y="27" width="5" height="5" fill="#6b4420"/>
+    <rect x="28" y="34" width="5" height="5" fill="#96612b"/>
+    <rect x="28" y="41" width="5" height="5" fill="#7c4f24"/>
+    <rect x="22" y="17" width="5" height="5" fill="#a86c2e"/>
+    <rect x="22" y="24" width="5" height="5" fill="#b97a33"/>
+    <rect x="22" y="31" width="5" height="5" fill="#8f5c29"/>
+    <rect x="22" y="38" width="5" height="5" fill="#a86c2e"/>
+    <rect x="16" y="14" width="4.4" height="4.4" fill="#c8873c"/>
+    <rect x="16" y="21" width="4.4" height="4.4" fill="#cf8f45"/>
+    <rect x="16" y="28" width="4.4" height="4.4" fill="#b97a33"/>
+    <rect x="16" y="35" width="4.4" height="4.4" fill="#c8873c"/>
+    <rect x="10.5" y="18" width="3.6" height="3.6" fill="#d3924a"/>
+    <rect x="10.5" y="25" width="3.6" height="3.6" fill="#e0a95c"/>
+    <rect x="10.5" y="32" width="3.6" height="3.6" fill="#d3924a"/>
+    <rect x="5.5" y="21" width="2.8" height="2.8" fill="#e5b471"/>
+    <rect x="5.5" y="28" width="2.8" height="2.8" fill="#e8bd82"/>
+    <rect x="12" y="10" width="3" height="3" fill="#e0a95c"/>
+    <rect x="18" y="7"  width="3.4" height="3.4" fill="#d3924a"/>
+    <rect x="25" y="9"  width="3.6" height="3.6" fill="#c8873c"/>
+    <circle cx="7"  cy="12" r="1.5" fill="#e0a95c"/>
+    <circle cx="13" cy="5"  r="1.3" fill="#d99a4b"/>
+    <circle cx="4"  cy="35" r="1.3" fill="#edd0a5"/>
+    <circle cx="3"  cy="5"  r="1.1" fill="#e8bd82"/>
+    <circle cx="21" cy="2.5" r="1.2" fill="#e8bd82"/>
+    <circle cx="6.5" cy="42" r="1.4" fill="#e5b471"/>
+  </g>
+  <path fill="#2e3d4e" d="M15 17 C24 5.5 34 2 47 4 L47 14.5 C34 11.5 23 13 15 17 Z"/>
+  <path fill="#2e3d4e" fill-rule="evenodd" d="
+    M39 6
+    H62
+    C79 6 88 13.5 88 26
+    C88 38.5 79 46 63 46
+    L88 90
+    H70
+    L54.5 54.5
+    L54.5 46
+    H39
+    Z
+    M54.5 18.5
+    H61.5
+    C70 18.5 74.5 21 74.5 26
+    C74.5 31 70 33.5 61.5 33.5
+    H54.5
+    Z"/>
+  <path fill="none" stroke="#2e3d4e" stroke-width="13.5" d="M46.8 44 C46.8 60 44.5 74 38 88"/>
+  <path fill="none" stroke="#47708e" stroke-width="5.2" d="M34.5 53 C34.5 64 32 75 27.5 84.5"/>
+  <path fill="none" stroke="#c8873c" stroke-width="5.2" d="M26.8 57 C26.8 66 24.5 73.5 20.5 81"/>
+</svg>
