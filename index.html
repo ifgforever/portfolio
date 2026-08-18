@@ -1025,11 +1025,11 @@
       <form
         class="contact-form"
         id="contact-form"
-        action="https://formspree.io/f/mdaqjjqo"
+        action="/api/contact"
         method="POST"
       >
-        <input type="hidden" name="_subject" value="New Risen Dust project inquiry">
         <input type="hidden" name="source" value="risendust.com portfolio">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
 
         <div class="form-heading">
           <p class="form-kicker">Start a project</p>
@@ -1140,16 +1140,6 @@
     </div>
   </footer>
 
-  <script>
-    window.formspree = window.formspree || function () {
-      (formspree.q = formspree.q || []).push(arguments);
-    };
-    formspree("initForm", {
-      formElement: "#contact-form",
-      formId: "mdaqjjqo"
-    });
-  </script>
-  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
-  <script type="module" src="assets/app.js?v=20260730-form"></script>
+  <script type="module" src="assets/app.js?v=20260818-contact"></script>
 </body>
 </html>

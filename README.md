@@ -41,17 +41,21 @@ blue `#47708e`, warm paper `#f4f1eb`.
 
 Public contact email: `info@risendust.com`.
 
-## Brand
+## Contact form
 
-`assets/logo.svg` is the Risen Dust mark — a slate-navy R eroding into copper
-pixel dust with steel and copper ribbons — redrawn as vector from the master
-logo PNG so it stays crisp at any size. `assets/favicon.svg` puts the same
-mark on a paper tile for browser tabs; `assets/apple-touch-icon.png` and
-`assets/og-risen-dust.png` are raster renders of it. The site palette lives in
-`assets/styles.css` `:root`: slate navy `#2e3d4e`, copper `#c8873c`, steel
-blue `#47708e`, warm paper `#f4f1eb`.
+The form on every page posts same-origin to `/api/contact`
+(`functions/api/contact.js`, a Cloudflare Pages Function) which relays the
+submission through Resend. It replaced the GoDaddy-era Formspree endpoint, so
+no third party sits in the submission path anymore. `assets/app.js` submits
+the form over fetch and renders the success/error notices.
 
-Public contact email: `info@risendust.com`.
+The function needs `RESEND_API_KEY` set as a secret on the **portfolio**
+Pages project (dashboard > Workers & Pages > portfolio > Settings > Variables
+and secrets); without it, submissions fail with a visible error telling the
+visitor to email directly. Optional vars: `CONTACT_TO` (delivery inbox;
+defaults to `info@risendust.com`) and `CONTACT_FROM` (sender; defaults to
+`risendust@mail.tvserviceschicago.com`, a domain already verified in Resend —
+verify `risendust.com` in Resend to use a branded sender).
 
 ## How it works
 
@@ -65,7 +69,9 @@ Cloudflare Pages project **`portfolio`** (git-connected), serving
 
 **No build step runs — Pages serves the repository root verbatim.** Verified in
 production: `assets/styles.css?v=…` reaches the browser unhashed, and
-`/package.json` and `/README.md` are publicly readable. So:
+`/package.json` and `/README.md` are publicly readable. The one exception is
+`functions/`, which Pages compiles into the project's Functions (that is what
+serves `/api/contact`) instead of serving it as static files. So:
 
 - Anything that must be served has to live at the repo **root**, not in
   `public/` — a `public/` directory is served as a literal `/public/` path,
