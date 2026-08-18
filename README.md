@@ -29,6 +29,18 @@ The site presents websites, applications, and product ideas as proof of work, in
 - Chicago IT Dept (`https://chicagoitdept.com/` — its `_headers` allows framing
   from risendust.com via CSP `frame-ancestors`; everyone else is refused)
 
+## Brand
+
+`assets/logo.svg` is the Risen Dust mark — a slate-navy R eroding into copper
+pixel dust with steel and copper ribbons — redrawn as vector from the master
+logo PNG so it stays crisp at any size. `assets/favicon.svg` puts the same
+mark on a paper tile for browser tabs; `assets/apple-touch-icon.png` and
+`assets/og-risen-dust.png` are raster renders of it. The site palette lives in
+`assets/styles.css` `:root`: slate navy `#2e3d4e`, copper `#c8873c`, steel
+blue `#47708e`, warm paper `#f4f1eb`.
+
+Public contact email: `info@risendust.com`.
+
 ## How it works
 
 The project cards contain scaled, non-interactive views of each live homepage.

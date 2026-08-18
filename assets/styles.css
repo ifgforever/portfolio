@@ -1,11 +1,16 @@
 :root {
-  --ink: #171714;
-  --paper: #f2f0e8;
-  --paper-deep: #e7e3d8;
-  --acid: #d6ff35;
-  --blue: #2367ff;
-  --line: rgba(23, 23, 20, 0.2);
-  --muted: #5e5d56;
+  /* Palette drawn from the Risen Dust pixel-R logo: slate-navy letterform,
+     copper dust, steel-blue ribbon, warm paper ground. */
+  --ink: #2e3d4e;
+  --paper: #f4f1eb;
+  --paper-deep: #e9e4d9;
+  --copper: #c8873c;
+  --copper-soft: #e0aa5f;
+  --copper-deep: #a2671e;
+  --steel: #47708e;
+  --steel-deep: #35597a;
+  --line: rgba(46, 61, 78, 0.22);
+  --muted: #5b6470;
   --radius: 2px;
   --max: 1440px;
 }
@@ -50,7 +55,7 @@ a {
   left: 12px;
   z-index: 100;
   padding: 10px 14px;
-  background: var(--acid);
+  background: var(--copper);
   color: var(--ink);
   transform: translateY(-150%);
   transition: transform 160ms ease;
@@ -83,15 +88,14 @@ a {
 }
 
 .brand-mark {
-  display: grid;
-  place-items: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: var(--ink);
-  color: var(--paper);
-  font-size: 11px;
-  letter-spacing: -0.04em;
+  display: block;
+  width: 38px;
+  height: 38px;
+}
+
+.brand-name em {
+  color: var(--copper-deep);
+  font-style: normal;
 }
 
 .site-nav {
@@ -170,8 +174,8 @@ a {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--blue);
-  box-shadow: 0 0 0 5px rgba(35, 103, 255, 0.12);
+  background: var(--copper);
+  box-shadow: 0 0 0 5px rgba(200, 135, 60, 0.16);
 }
 
 .hero h1 {
@@ -198,7 +202,7 @@ a {
   left: 0.07em;
   z-index: -1;
   height: 0.17em;
-  background: var(--acid);
+  background: var(--copper-soft);
   content: "";
   transform: rotate(-1.2deg);
 }
@@ -244,7 +248,7 @@ a {
 
 .round-link:hover .round-arrow {
   background: var(--ink);
-  color: var(--acid);
+  color: var(--copper-soft);
   transform: translateY(4px);
 }
 
@@ -287,13 +291,13 @@ a {
   border-bottom: 1px solid var(--ink);
 }
 
-.service-card--blue {
-  background: var(--blue);
+.service-card--steel {
+  background: var(--steel);
   color: white;
 }
 
-.service-card--acid {
-  background: var(--acid);
+.service-card--copper {
+  background: var(--copper);
 }
 
 .service-number {
@@ -332,8 +336,12 @@ a {
   font-size: 16px;
 }
 
-.service-card--blue > p {
+.service-card--steel > p {
   color: rgba(255, 255, 255, 0.97);
+}
+
+.service-card--copper > p {
+  color: rgba(36, 46, 58, 0.88);
 }
 
 .service-card ul {
@@ -369,7 +377,7 @@ a {
 
 .section-kicker {
   margin-bottom: 18px;
-  color: #1650c9;
+  color: var(--copper-deep);
 }
 
 .section-heading h2,
@@ -403,7 +411,7 @@ a {
   display: block;
   height: clamp(260px, 32vw, 500px);
   overflow: hidden;
-  border: 1px solid rgba(23, 23, 20, 0.26);
+  border: 1px solid rgba(46, 61, 78, 0.28);
   background: var(--paper-deep);
   color: white;
   text-decoration: none;
@@ -486,7 +494,7 @@ a {
 }
 
 .project-hitarea:focus-visible {
-  outline: 4px solid var(--acid);
+  outline: 4px solid var(--copper);
   outline-offset: -4px;
 }
 
@@ -509,7 +517,7 @@ a {
   gap: 16px;
   padding: 11px 14px;
   border-radius: 999px;
-  background: var(--acid);
+  background: var(--copper);
   color: var(--ink);
   font-size: 11px;
   font-weight: 800;
@@ -593,7 +601,7 @@ a {
 }
 
 .section-heading--light .section-kicker {
-  color: var(--acid);
+  color: var(--copper-soft);
 }
 
 .section-heading--light > p {
@@ -620,7 +628,7 @@ a {
 .approach-list li > span {
   display: block;
   margin-bottom: 100px;
-  color: var(--acid);
+  color: var(--copper-soft);
   font-size: 11px;
   font-weight: 800;
 }
@@ -649,7 +657,7 @@ a {
 }
 
 .about-layout h2 em {
-  color: var(--blue);
+  color: var(--steel-deep);
 }
 
 .about-copy {
@@ -735,7 +743,7 @@ a {
 
 .faq-list details[open] summary b {
   background: var(--ink);
-  color: var(--acid);
+  color: var(--copper-soft);
   transform: rotate(45deg);
 }
 
@@ -748,7 +756,7 @@ a {
 
 .site-footer {
   padding: 100px max(24px, calc((100vw - var(--max)) / 2)) 24px;
-  background: var(--blue);
+  background: var(--steel-deep);
   color: white;
 }
 
@@ -813,7 +821,7 @@ a {
 .contact-form {
   padding: clamp(28px, 4vw, 52px);
   border: 1px solid rgba(255, 255, 255, 0.52);
-  background: rgba(11, 47, 154, 0.2);
+  background: rgba(21, 38, 55, 0.24);
 }
 
 .form-heading {
@@ -909,8 +917,8 @@ a {
 .form-field input:focus,
 .form-field select:focus,
 .form-field textarea:focus {
-  border-bottom-color: var(--acid);
-  box-shadow: 0 2px 0 var(--acid);
+  border-bottom-color: var(--copper-soft);
+  box-shadow: 0 2px 0 var(--copper-soft);
 }
 
 .form-field [aria-invalid="true"] {
@@ -938,7 +946,7 @@ a {
 }
 
 .form-notice--success {
-  background: var(--acid);
+  background: var(--copper-soft);
   color: var(--ink);
 }
 
@@ -953,9 +961,9 @@ a {
   width: 100%;
   margin-top: 28px;
   padding: 18px 20px;
-  border: 1px solid var(--acid);
+  border: 1px solid var(--copper);
   border-radius: 0;
-  background: var(--acid);
+  background: var(--copper);
   color: var(--ink);
   cursor: pointer;
   font: inherit;
