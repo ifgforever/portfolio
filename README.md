@@ -28,6 +28,10 @@ The site presents websites, applications, and product ideas as proof of work, in
 - Andante Hair Studio (`https://www.andantehairchicago.com/`)
 - Chicago IT Dept (`https://chicagoitdept.com/` — its `_headers` allows framing
   from risendust.com via CSP `frame-ancestors`; everyone else is refused)
+- OwnWare / Custom Biz App
+  (`https://custom-biz-app.tvinstallchicago.workers.dev/` — the landing page
+  ships no frame-blocking headers, so the preview iframe works; only its
+  generated apps and studio previews restrict `frame-ancestors`)
 
 ## Brand
 

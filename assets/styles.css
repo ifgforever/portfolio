@@ -467,6 +467,7 @@ a {
 .preview-fallback--tvops { background: #121212; color: #c8a94a; }
 .preview-fallback--andante { background: #f6f4f1; color: #8a6c37; }
 .preview-fallback--chicagoitdept { background: #f5f8fc; color: #0a55a8; }
+.preview-fallback--ownware { background: #0a0c12; color: #8b93ff; }
 
 .project-preview iframe {
   position: absolute;
